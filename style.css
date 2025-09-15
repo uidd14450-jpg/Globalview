@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #111;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.video-post {
+  margin: 10px 0;
+  width: 90%;
+  max-width: 500px;
+}
+
+video {
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
+}
+
+footer {
+  background: #111;
+  padding: 10px;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+input[type="file"] {
+  margin-right: 10px;
+}
